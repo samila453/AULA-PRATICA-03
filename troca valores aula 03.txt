@@ -1,0 +1,26 @@
+
+Algoritmo <troca_valores>
+
+Var
+   A, B, temp: inteiro
+
+Inicio
+
+   escreva("Digite o valor de A: ")
+   leia(A)
+
+   escreva("Digite o valor de B: ")
+   leia(B)
+
+   temp <- A
+   A <- B
+   B <- temp
+
+   escreval("Novo valor de A: ", A)
+   escreval("Novo valor de B: ", B)
+
+Fimalgoritmo
+
+
+
+

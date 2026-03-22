@@ -1,0 +1,22 @@
+algoritmo <media prova>
+
+
+Inicio
+
+Var:
+nome;PUm;PDois;PTres;Soma;Media;Provas;
+
+leia("Insira seu nome:" nome);
+leia("Insira prova 1:" PUm);
+leia("Insira prova2:" PDois);
+leia("Insira prova3:" PTres);
+Provas<-3
+Soma<-PUm+PDois+PTres
+Media<-Soma /Provas
+
+
+Escreva("Nome do aluno:" nome)
+Escreva("Resultado de media:" media)
+
+Fimalgoritmo
+
