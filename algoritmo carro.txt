@@ -1,0 +1,20 @@
+
+
+algoritmo "carro"
+
+var
+   custo, imposto, distribuidor, total: real
+
+inicio
+   escreva("Digite o custo de fabrica: ")
+   leia(custo)
+
+   imposto <- custo * 0.45
+   custo <- custo + imposto
+
+   distribuidor <- custo * 0.28
+
+   total <- custo + distribuidor
+
+   escreva("Custo final: ", total)
+fimalgoritmo

@@ -1,0 +1,18 @@
+
+algoritmo<consumo_medio>
+
+var
+distancia,combustivel, consumo:real
+
+inicio
+escreva ("Digite a distancia percorrida pelo automovel:")
+leia (distancia)
+escreva ("Digite o combustivel gasto pelo automovel:")
+leia (combustivel)
+
+consumo<- distancia/combustivel
+ 
+
+Escreva ("Consumo medio:"  consumo,km/l)
+
+fimalgoritmo

@@ -1,0 +1,19 @@
+algoritmo "idades"
+
+var
+   idade, i: inteiro
+
+inicio
+   para i de 1 ate 75 faca
+      escreva("Digite a idade: ")
+      leia(idade)
+
+      se idade < 18 entao
+         escreva("Menor de idade")
+      senao se idade >= 60 entao
+         escreva("Idoso")
+      senao
+         escreva("Maior de idade")
+      fimse
+   fimpara
+fimalgoritmo

@@ -1,0 +1,25 @@
+algoritmo "media_aluno"
+
+var
+   nome: caractere
+   n1, n2, n3, media: real
+
+inicio
+   escreva("Digite o nome: ")
+   leia(nome)
+
+   escreva("Digite as 3 notas: ")
+   leia(n1, n2, n3)
+
+   media <- (n1 + n2 + n3) / 3
+
+   escreva("Media: ", media)
+
+   se media >= 7 entao
+      escreva("Aprovado")
+   senao se media <= 5 entao
+      escreva("Reprovado")
+   senao
+      escreva("Recuperacao")
+   fimse
+fimalgoritmo

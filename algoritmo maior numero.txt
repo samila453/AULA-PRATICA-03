@@ -1,0 +1,28 @@
+algoritmo "maior_numero"
+
+var
+   num1, num2, maior: inteiro
+
+inicio
+   escreva("Digite o primeiro numero: ")
+   leia(num1)
+
+   escreva("Digite o segundo numero: ")
+   leia(num2)
+
+   se num1 > num2 entao
+      maior <- num1
+   senao
+      maior <- num2
+   fimse
+
+   escreva("Maior numero: ", maior)
+
+   se maior >= 1 e maior <= 99 entao
+      escreva("Intervalo: 1 a 99")
+   senao se maior >= 100 e maior <= 199 entao
+      escreva("Intervalo: 100 a 199")
+   senao
+      escreva("Maior que 200")
+   fimse
+fimalgoritmo

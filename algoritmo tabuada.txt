@@ -1,0 +1,31 @@
+algoritmo "tabuada"
+
+var
+   N, T, i: inteiro
+   O: caractere
+   resultado: real
+
+inicio
+   escreva("Digite o numero base: ")
+   leia(N)
+
+   escreva("Digite o operador (+, -, *, /): ")
+   leia(O)
+
+   escreva("Digite ate onde vai a tabuada: ")
+   leia(T)
+
+   para i de 1 ate T faca
+      se O = "+" entao
+         resultado <- N + i
+      senao se O = "-" entao
+         resultado <- N - i
+      senao se O = "*" entao
+         resultado <- N * i
+      senao se O = "/" entao
+         resultado <- N / i
+      fimse
+
+      escreva(N, " ", O, " ", i, " = ", resultado)
+   fimpara
+fimalgoritmo

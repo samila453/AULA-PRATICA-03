@@ -1,0 +1,20 @@
+
+
+algoritmo< conversao real>
+
+var 
+dolar,cotacao,reais:real
+
+
+inicio
+escreva("Digite a cotacao atual do dolar:")
+leia (cotacao)
+escreva("Digite a quantidade em dolar:")
+leia(dolar)
+
+reais<=dolar*cotacao
+
+Escreva("Valor em reais:",reais)
+
+fimalgoritmo
+

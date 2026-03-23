@@ -1,0 +1,42 @@
+
+ algoritmo "desconto_carros"
+
+var
+   ano: inteiro
+   valor, desconto, total: real
+   resposta: caractere
+   cont2010, totalCarros: inteiro
+
+inicio
+   cont2010 <- 0
+   totalCarros <- 0
+
+   repita
+      escreva("Digite o ano do carro: ")
+      leia(ano)
+
+      escreva("Digite o valor do carro: ")
+      leia(valor)
+
+      se ano <= 2010 entao
+         desconto <- valor * 0.12
+         cont2010 <- cont2010 + 1
+      senao
+         desconto <- valor * 0.07
+      fimse
+
+      total <- valor - desconto
+
+      escreva("Desconto: ", desconto)
+      escreva("Valor final: ", total)
+
+      totalCarros <- totalCarros + 1
+
+      escreva("Deseja continuar? (S/N): ")
+      leia(resposta)
+
+   ate resposta = "N"
+
+   escreva("Total carros ate 2010: ", cont2010)
+   escreva("Total geral: ", totalCarros)
+fimalgoritmo
